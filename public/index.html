@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 서비스</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>회원가입 서비스</h1>
+            <p>Node.js + MySQL로 구축된 회원가입 시스템</p>
+        </header>
+
+        <main>
+            <div class="welcome-section">
+                <h2>환영합니다!</h2>
+                <p>새로운 계정을 만들어보세요.</p>
+                <a href="/register" class="btn btn-primary">회원가입하기</a>
+            </div>
+
+            <div class="features">
+                <h3>주요 기능</h3>
+                <ul>
+                    <li>✅ 안전한 회원가입</li>
+                    <li>✅ 비밀번호 암호화</li>
+                    <li>✅ 이메일 중복 확인</li>
+                    <li>✅ 사용자명 중복 확인</li>
+                    <li>✅ 입력 데이터 유효성 검사</li>
+                </ul>
+            </div>
+
+            <div class="api-info">
+                <h3>API 엔드포인트</h3>
+                <div class="api-list">
+                    <div class="api-item">
+                        <strong>POST /api/auth/register</strong>
+                        <p>회원가입</p>
+                    </div>
+                    <div class="api-item">
+                        <strong>POST /api/auth/login</strong>
+                        <p>로그인</p>
+                    </div>
+                    <div class="api-item">
+                        <strong>GET /api/auth/profile/:id</strong>
+                        <p>사용자 정보 조회</p>
+                    </div>
+                    <div class="api-item">
+                        <strong>GET /api/health</strong>
+                        <p>서버 상태 확인</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 회원가입 서비스. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
