@@ -1,4 +1,4 @@
-# Node.js + MySQL 회원가입 서비스
+# (busan_node.js)Node.js + MySQL 회원가입 서비스
 
 Node.js와 MySQL을 사용하여 구축된 회원가입 서비스입니다.
 
@@ -256,3 +256,4 @@ MIT License
 
 문제가 발생하거나 질문이 있으시면 이슈를 생성해주세요.
 
+(여기는 내 컴퓨터, 즉 로컬 저장소의 README.md 내용입니다.)
